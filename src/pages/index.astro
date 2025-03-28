@@ -1,0 +1,23 @@
+---
+import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
+
+import BaseHead from "../layouts/BaseHead.astro";
+import Header from "../layouts/Header.astro";
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+  </head>
+
+  <body>
+    <Header></Header>
+
+    <main></main>
+
+    <footer></footer>
+  </body>
+</html>
+
+<style></style>
